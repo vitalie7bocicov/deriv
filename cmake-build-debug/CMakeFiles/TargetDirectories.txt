@@ -1,0 +1,3 @@
+/home/vitalieb/CLionProjects/deriv/cmake-build-debug/CMakeFiles/deriv.dir
+/home/vitalieb/CLionProjects/deriv/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/vitalieb/CLionProjects/deriv/cmake-build-debug/CMakeFiles/rebuild_cache.dir
