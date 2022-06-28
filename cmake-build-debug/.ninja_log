@@ -1,7 +1,20 @@
 # ninja log v5
-0	334	1656321102391830516	CMakeFiles/deriv.dir/InfixToPostfix.cpp.o	279ed898d3ba9da3
-0	334	1656321102391830516	CMakeFiles/deriv.dir/main.cpp.o	713251c5c465df0e
-334	392	1656321102447830514	deriv	5dea142ad3e893f1
-0	12	1656323051143744778	build.ninja	2bcbc95a6bb5198a
-1	369	1656323051515744762	CMakeFiles/deriv.dir/InfixToPostfix.cpp.o	279ed898d3ba9da3
-369	421	1656323051567744760	deriv	5dea142ad3e893f1
+0	301	1656407845345188166	CMakeFiles/deriv.dir/Stack.cpp.o	eb52a7b9bd550781
+1	387	1656402783802234070	CMakeFiles/deriv.dir/InfixToPostfix.cpp.o	92fe0fa390f87c7a
+0	336	1656407845381189052	CMakeFiles/deriv.dir/PostfixToBinaryTree.cpp.o	4f8d7388734909d4
+0	13	1656408337341292242	build.ninja	8a88cabdd2d036d9
+1	329	1656407845373188855	CMakeFiles/deriv.dir/ExpUtils.cpp.o	dbfe7487842fde46
+1	325	1656408255731284479	CMakeFiles/deriv.dir/main.cpp.o	22d92dd97eee12ad
+384	467	1656408255871287924	deriv	5be94f7eed432e70
+1	384	1656408255791285956	CMakeFiles/deriv.dir/transformation/InfixToPostfix.cpp.o	969d3d3053f95fa0
+1	357	1656404660163080290	CMakeFiles/deriv.dir/Node.cpp.o	59b7d7f820963692
+1	319	1656408255727284382	CMakeFiles/deriv.dir/transformation/PostfixToBinaryTree.cpp.o	f90195964c17fd4d
+0	13	1656408337341292242	build.ninja	8a88cabdd2d036d9
+1	338	1656408337681300607	CMakeFiles/deriv.dir/transformation/PostfixToBinaryTree.cpp.o	f90195964c17fd4d
+1	342	1656408337685300705	CMakeFiles/deriv.dir/main.cpp.o	22d92dd97eee12ad
+1	348	1656408337689300804	CMakeFiles/deriv.dir/utils/ExpUtils.cpp.o	abdee6f268814107
+1	435	1656408337777302969	CMakeFiles/deriv.dir/utils/Stack.cpp.o	6ec0f4f9738f6012
+1	449	1656408337793303363	CMakeFiles/deriv.dir/utils/Node.cpp.o	956dec43f9ab5578
+449	503	1656408337845304642	deriv	714baf7309d09fd0
+1	303	1656408353817697594	CMakeFiles/deriv.dir/main.cpp.o	22d92dd97eee12ad
+303	358	1656408353873698971	deriv	714baf7309d09fd0

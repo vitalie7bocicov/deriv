@@ -1,4 +1,4 @@
-/home/vitalieb/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/vitalieb/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/ninja/linux/ninja -G Ninja -S /home/vitalieb/CLionProjects/deriv -B /home/vitalieb/CLionProjects/deriv/cmake-build-debug
+/home/vitalieb/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/vitalieb/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/ninja/linux/ninja -G Ninja -S /home/vitalieb/Desktop/deriv -B /home/vitalieb/Desktop/deriv/cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/vitalieb/CLionProjects/deriv/cmake-build-debug
+-- Build files have been written to: /home/vitalieb/Desktop/deriv/cmake-build-debug

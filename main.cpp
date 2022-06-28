@@ -1,10 +1,14 @@
 #include <iostream>
-#include "InfixToPostfix.h"
+#include "transformation/InfixToPostfix.h"
+#include "utils/Node.h"
+#include "transformation/PostfixToBinaryTree.h"
 
 using namespace std;
 int main() {
-    string infix;
+    string infix, postfix;
     cin>>infix;
-    cout<<InfixToPostfix::transform(infix);
+    postfix=InfixToPostfix::transform(infix);
+    Node *top= PostfixToBinaryTree::transform(postfix);
+    cout<<top->value;
     return 0;
 }

@@ -1,4 +1,4 @@
-# Install script for directory: /home/vitalieb/CLionProjects/deriv
+# Install script for directory: /home/vitalieb/Desktop/deriv
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vitalieb/CLionProjects/deriv/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vitalieb/Desktop/deriv/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

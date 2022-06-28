@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/vitalieb/CLionProjects/deriv/cmake-build-debug"
+			"value" : "/home/vitalieb/Desktop/deriv/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -591,7 +591,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/vitalieb/CLionProjects/deriv"
+			"value" : "/home/vitalieb/Desktop/deriv"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1123,7 +1123,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/vitalieb/CLionProjects/deriv/cmake-build-debug"
+			"value" : "/home/vitalieb/Desktop/deriv/cmake-build-debug"
 		},
 		{
 			"name" : "deriv_IS_TOP_LEVEL",
@@ -1147,7 +1147,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/vitalieb/CLionProjects/deriv"
+			"value" : "/home/vitalieb/Desktop/deriv"
 		}
 	],
 	"kind" : "cache",

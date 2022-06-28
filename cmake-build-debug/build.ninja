@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/vitalieb/CLionProjects/deriv/cmake-build-debug/
+cmake_ninja_workdir = /home/vitalieb/Desktop/deriv/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target deriv
 
@@ -49,17 +49,41 @@ cmake_ninja_workdir = /home/vitalieb/CLionProjects/deriv/cmake-build-debug/
 
 build cmake_object_order_depends_target_deriv: phony || CMakeFiles/deriv.dir
 
-build CMakeFiles/deriv.dir/main.cpp.o: CXX_COMPILER__deriv_Debug /home/vitalieb/CLionProjects/deriv/main.cpp || cmake_object_order_depends_target_deriv
+build CMakeFiles/deriv.dir/main.cpp.o: CXX_COMPILER__deriv_Debug /home/vitalieb/Desktop/deriv/main.cpp || cmake_object_order_depends_target_deriv
   DEP_FILE = CMakeFiles/deriv.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++2a
   OBJECT_DIR = CMakeFiles/deriv.dir
   OBJECT_FILE_DIR = CMakeFiles/deriv.dir
 
-build CMakeFiles/deriv.dir/InfixToPostfix.cpp.o: CXX_COMPILER__deriv_Debug /home/vitalieb/CLionProjects/deriv/InfixToPostfix.cpp || cmake_object_order_depends_target_deriv
-  DEP_FILE = CMakeFiles/deriv.dir/InfixToPostfix.cpp.o.d
+build CMakeFiles/deriv.dir/transformation/InfixToPostfix.cpp.o: CXX_COMPILER__deriv_Debug /home/vitalieb/Desktop/deriv/transformation/InfixToPostfix.cpp || cmake_object_order_depends_target_deriv
+  DEP_FILE = CMakeFiles/deriv.dir/transformation/InfixToPostfix.cpp.o.d
   FLAGS = -g -std=gnu++2a
   OBJECT_DIR = CMakeFiles/deriv.dir
-  OBJECT_FILE_DIR = CMakeFiles/deriv.dir
+  OBJECT_FILE_DIR = CMakeFiles/deriv.dir/transformation
+
+build CMakeFiles/deriv.dir/utils/Node.cpp.o: CXX_COMPILER__deriv_Debug /home/vitalieb/Desktop/deriv/utils/Node.cpp || cmake_object_order_depends_target_deriv
+  DEP_FILE = CMakeFiles/deriv.dir/utils/Node.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/deriv.dir
+  OBJECT_FILE_DIR = CMakeFiles/deriv.dir/utils
+
+build CMakeFiles/deriv.dir/transformation/PostfixToBinaryTree.cpp.o: CXX_COMPILER__deriv_Debug /home/vitalieb/Desktop/deriv/transformation/PostfixToBinaryTree.cpp || cmake_object_order_depends_target_deriv
+  DEP_FILE = CMakeFiles/deriv.dir/transformation/PostfixToBinaryTree.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/deriv.dir
+  OBJECT_FILE_DIR = CMakeFiles/deriv.dir/transformation
+
+build CMakeFiles/deriv.dir/utils/Stack.cpp.o: CXX_COMPILER__deriv_Debug /home/vitalieb/Desktop/deriv/utils/Stack.cpp || cmake_object_order_depends_target_deriv
+  DEP_FILE = CMakeFiles/deriv.dir/utils/Stack.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/deriv.dir
+  OBJECT_FILE_DIR = CMakeFiles/deriv.dir/utils
+
+build CMakeFiles/deriv.dir/utils/ExpUtils.cpp.o: CXX_COMPILER__deriv_Debug /home/vitalieb/Desktop/deriv/utils/ExpUtils.cpp || cmake_object_order_depends_target_deriv
+  DEP_FILE = CMakeFiles/deriv.dir/utils/ExpUtils.cpp.o.d
+  FLAGS = -g -std=gnu++2a
+  OBJECT_DIR = CMakeFiles/deriv.dir
+  OBJECT_FILE_DIR = CMakeFiles/deriv.dir/utils
 
 
 # =============================================================================
@@ -69,7 +93,7 @@ build CMakeFiles/deriv.dir/InfixToPostfix.cpp.o: CXX_COMPILER__deriv_Debug /home
 #############################################
 # Link the executable deriv
 
-build deriv: CXX_EXECUTABLE_LINKER__deriv_Debug CMakeFiles/deriv.dir/main.cpp.o CMakeFiles/deriv.dir/InfixToPostfix.cpp.o
+build deriv: CXX_EXECUTABLE_LINKER__deriv_Debug CMakeFiles/deriv.dir/main.cpp.o CMakeFiles/deriv.dir/transformation/InfixToPostfix.cpp.o CMakeFiles/deriv.dir/utils/Node.cpp.o CMakeFiles/deriv.dir/transformation/PostfixToBinaryTree.cpp.o CMakeFiles/deriv.dir/utils/Stack.cpp.o CMakeFiles/deriv.dir/utils/ExpUtils.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/deriv.dir
   POST_BUILD = :
@@ -82,7 +106,7 @@ build deriv: CXX_EXECUTABLE_LINKER__deriv_Debug CMakeFiles/deriv.dir/main.cpp.o 
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/vitalieb/CLionProjects/deriv/cmake-build-debug && /home/vitalieb/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/linux/bin/ccmake -S/home/vitalieb/CLionProjects/deriv -B/home/vitalieb/CLionProjects/deriv/cmake-build-debug
+  COMMAND = cd /home/vitalieb/Desktop/deriv/cmake-build-debug && /home/vitalieb/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/linux/bin/ccmake -S/home/vitalieb/Desktop/deriv -B/home/vitalieb/Desktop/deriv/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -94,7 +118,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/vitalieb/CLionProjects/deriv/cmake-build-debug && /home/vitalieb/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/vitalieb/CLionProjects/deriv -B/home/vitalieb/CLionProjects/deriv/cmake-build-debug
+  COMMAND = cd /home/vitalieb/Desktop/deriv/cmake-build-debug && /home/vitalieb/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5921.27/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/vitalieb/Desktop/deriv -B/home/vitalieb/Desktop/deriv/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -110,7 +134,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/vitalieb/CLionProjects/deriv/cmake-build-debug
+# Folder: /home/vitalieb/Desktop/deriv/cmake-build-debug
 
 build all: phony deriv
 
